@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(12, 4, 4);
+    text-align: center;
+    color: rgb(197, 230, 132);
+}
+.password{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+
+}
+.input-box input {
+    background-color: transparent;
+}
+
+.button{
+    border-radius: 50%;
+}
+
+.input-box {
+    color: rgb(21, 18, 180);
+}
+.input-box input {
+    color: white;
+}
