@@ -11,13 +11,12 @@ pass.addEventListener ('input', ()=>{
         msg.style.display ="none";
     }
      if (pass.value.length < 6){
-        str.innerHTML = "week";
+        str.innerHTML = "&#128545";
     }
-
-        else if (pass.value.length >= 6 && pass.value.length < 8){
-            str.innerHTML = "medium";
-        }
-        else if (pass.value.length >= 8){
-            str.innerHTML = "strong";
-        }
+    else if (pass.value.length >= 6 && pass.value.length < 8){
+            str.innerHTML = "&#128528";
+    }
+    else if (pass.value.length >= 8){
+            str.innerHTML = "&#128513";
+    }
 });
